@@ -4,5 +4,7 @@ local A = {
 }
 
 if not A[game.PlaceId] then
-    return warn("Unsupported game")
+    return false
 end
+
+return true
